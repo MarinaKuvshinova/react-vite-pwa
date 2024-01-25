@@ -9,7 +9,7 @@ export default function Navbar() {
                     className={({ isActive }) => {
                         return isActive ? "active" : "";
                     }}
-                    to="/image">
+                    to="/">
                     Image
                 </NavLink>
             </li>
